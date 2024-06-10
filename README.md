@@ -15,7 +15,7 @@ This repository contains scripts to set up Conda environments for JAX, PyTorch, 
 ```bash
 git clone https://github.com/yourusername/conda-env-setup-scripts.git
 cd conda-env-setup-scripts
-
+```
 ### 2. Choose the script for the environment you want to set up and run it.
 
 - **JAX Environment**: bash jax_env_setup.sh
