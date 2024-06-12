@@ -4,13 +4,13 @@
 #!/bin/bash
 
 # Create JAX environment
-conda create -n jax_env python=3.11.9 -y
+conda create -n jax_env python=3.11.9
 conda activate jax_env
 
-# Install JAX and CUDA-enabled JAXLIB
-python -m pip install --upgrade pip
-python -m pip install jax[cuda12]
-python -m pip install keras
+# Install JAX and keras
+pip install --upgrade keras
+pip install -U "jax[cuda12]"
+
 
 # Set up activation and deactivation scripts
 cd $CONDA_PREFIX
