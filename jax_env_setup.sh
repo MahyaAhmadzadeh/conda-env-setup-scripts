@@ -10,6 +10,7 @@ conda activate jax_env
 # Install JAX and keras
 pip install -U "jax[cuda12]"
 pip install --upgrade keras
+python -m pip install tensorflow-cpu==2.16.1
 
 
 
