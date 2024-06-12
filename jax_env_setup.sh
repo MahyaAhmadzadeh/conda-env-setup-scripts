@@ -8,8 +8,9 @@ conda create -n jax_env python=3.11.9
 conda activate jax_env
 
 # Install JAX and keras
-pip install --upgrade keras
 pip install -U "jax[cuda12]"
+pip install --upgrade keras
+
 
 
 # Set up activation and deactivation scripts
