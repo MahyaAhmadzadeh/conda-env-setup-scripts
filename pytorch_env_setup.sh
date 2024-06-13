@@ -2,6 +2,7 @@
 
 # Create PyTorch environment
 conda create -n pytorch_env python=3.11.9
+conda init
 conda activate pytorch_env
 
 
