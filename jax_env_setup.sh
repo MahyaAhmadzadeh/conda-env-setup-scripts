@@ -7,7 +7,7 @@ conda activate jax_env
 
 
 # Install TensorFlow CPU-only version
-pip install tensorflow-cpu~=2.16.1
+pip install tensorflow-cpu~=2.16
 
 # Install JAX and keras
 pip install --find-links https://storage.googleapis.com/jax-releases/jax_cuda_releases.html jax[cuda12_pip]==0.4.23 flax
