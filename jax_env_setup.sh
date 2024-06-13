@@ -4,12 +4,12 @@
 conda create -n jax_env python=3.11.9
 conda activate jax_env
 
-# Install JAX and keras
-pip install --find-links https://storage.googleapis.com/jax-releases/jax_cuda_releases.html jax[cuda12_pip]==0.4.23 flax
 
 # Install TensorFlow CPU-only version
-python -m pip install tensorflow-cpu==2.16.1
+pip install tensorflow-cpu~=2.16.1
 
+# Install JAX and keras
+pip install --find-links https://storage.googleapis.com/jax-releases/jax_cuda_releases.html jax[cuda12_pip]==0.4.23 flax
 
 # Install additional requirements from requirements-common.txt
 pip install -r requirements-common.txt
