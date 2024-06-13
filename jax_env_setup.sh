@@ -2,6 +2,7 @@
 
 # Create JAX environment
 conda create -n jax_env python=3.11.9
+conda init
 conda activate jax_env
 
 
