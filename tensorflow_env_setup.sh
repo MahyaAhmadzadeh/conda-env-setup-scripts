@@ -2,6 +2,7 @@
 
 # Create TensorFlow environment
 conda create -n tensorflow_env python=3.11.9
+conda init
 conda activate tensorflow_env
 
 # Install TensorFlow with CUDA support
