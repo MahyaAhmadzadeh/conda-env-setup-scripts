@@ -6,7 +6,7 @@ conda init
 conda activate tensorflow_env
 
 # Install TensorFlow with CUDA support
-pip install tensorflow[and-cuda]~=2.16.1
+pip install tensorflow[and-cuda]~=2.16
 
 # Install additional requirements from a requirements file
 pip install -r requirements-common.txt
