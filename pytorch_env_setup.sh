@@ -7,7 +7,7 @@ conda activate pytorch_env
 
 
 # TensorFlow CPU-only version
-pip install tensorflow-cpu~=2.16.1
+pip install tensorflow-cpu~=2.16
 
 
 # Install PyTorch and Keras
