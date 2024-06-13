@@ -1,11 +1,17 @@
 #!/bin/bash
 
 # Create PyTorch environment
-conda create -n pytorch_env python=3.11.9 -y
+conda create -n pytorch_env
 conda activate pytorch_env
 
 # Install PyTorch and Keras
-python -m pip install torch torchvision torchaudio keras
+pip install --extra-index-url https://download.pytorch.org/whl/cu121 torch==2.2.1+cu121 torchvision==0.17.1+cu121
+
+# TensorFlow CPU-only version
+pip install tensorflow-cpu~=2.16.1
+
+# Install additional requirements from a file:
+pip install -r requirements-common.txt
 
 # Set up activation and deactivation scripts
 cd $CONDA_PREFIX
