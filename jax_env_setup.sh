@@ -1,6 +1,3 @@
-
-### `jax_env_setup.sh`
-```bash
 #!/bin/bash
 
 # Create JAX environment
